@@ -1,0 +1,204 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(imagem/back.jpg);
+}
+header{
+    width: 100%;
+    height: 210px;
+    background-color: black;
+    position: fixed;
+}
+footer{
+    width: 100%;
+    height: 210px;
+    background-color:  black;
+  
+}
+p{
+    font-family: cursive;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+}
+h1{
+    font-size: 44px;
+    font-family: fantasy;
+}
+h2{
+    font-size: 22px;
+    font-family: cursive;
+    
+}
+/*
+.container{
+    width: 1300px;
+    height: auto;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+#containerMenu{
+    width: 1850px;
+    height: inherit;
+/*    background-color: black;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+/*    margin-top: -200px;*/
+}
+/*CSS DO MENU*/
+#logoMenu{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-top: 05px;
+    margin-left: 90px;
+}
+.menuItens{
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    float: left;
+    margin-left: 45px;
+    margin-top: 130px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 22px;
+/*    border: solid 1px black;*/
+    border-radius: 05px;
+    color: white;
+}
+.menuItens:hover{
+    border-bottom: solid 5px white;
+}
+.loginMenu{
+    width: 160px;
+    height: 50px;
+/*    background-color: white;*/
+    float: left;
+    margin-left: 50px;
+    margin-top: 115px;
+    font-size: 22px;
+    color: white;
+}
+#botaoMenu{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    margin-left: 25px;
+    margin-top: 135px;
+}
+.loginCaixa{
+    width: 180px;
+    height: 50px;
+}
+.botaoLogin{
+    width: 80px;
+    height: 50px;
+}
+/*CSS DO CONTEUDO*/
+#containerAll{
+    width: 1550;
+    height: 2180px;
+    background-color: rgba(255,255,255);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 210px;
+}
+#conteudoHistoria{
+    width: 100%;
+    height: 860px;
+    background-color: rgba(255,255,255,0.1);
+/*    border: solid 2px black*/
+}
+#imagemRestaurante{
+    width: 1000px;
+    height: 400px;
+    background-color: blue;
+    float: left;
+    margin-top: 05px;
+    margin-left: 07px;
+}
+.imagemPlacas{
+    width: 1000px;
+    height: 200px;
+/*    background-color: gray;*/
+    float: left;
+    margin-top: -185px;
+}
+#textoEmpresa{
+    width: 525px;
+    height: 810px;
+    background-color: rgba(255,255,255);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 05px;
+    text-align: center;
+    line-height: 30px;
+    border: solid 1px black;
+    border-radius: 05px;
+}
+#empresaConteudo{
+    width: 100%;
+    height: 1320px;
+    background-color: white;
+    float: left;
+    border-radius: 15px;
+}
+.imagemLogoGrande{
+    width: 1000px;
+    height: 200px;
+/*    background-color: gray;*/
+    float: left;
+    margin-top: -50px;
+    margin-left: -35px;
+}
+.conteudoEmpresa{
+    width: 700px;
+    height: 810px;
+    background-color: rgba(255,255,255);
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    border: solid 1px black;
+    border-radius: 05px;
+    margin-left: 50px;
+    margin-top: 280px;
+    box-sizing: border-box;
+}
+/*CSS DO RODAPE*/
+#rodape{
+    width: 1850px;
+    height: 140px;
+/*    background-color: black;*/
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 70px;
+}
+#catalogoEletronico{
+    width:200px;
+    height: 70px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 300px;
+    float: left;
+}
+#endereco{
+    width: 900px;
+    height: 70px;
+    background-color: white;
+    float: left;
+    margin-right: 100px;
+}
+#downloadApp{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    float: left;
+}

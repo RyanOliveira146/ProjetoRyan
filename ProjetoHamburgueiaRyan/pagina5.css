@@ -1,0 +1,181 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(imagem/back.jpg);
+}
+header{
+    width: 100%;
+    height: 210px;
+    background-color: black;
+    position: fixed;
+    margin-top: -220px;
+}
+footer{
+    width: 100%;
+    height: 210px;
+    background-color:  black;
+}
+p{
+    font-family: cursive;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+}
+h1{
+    font-family: arial;
+    font-size: 66px;
+}
+/*
+.container{
+    width: 1300px;
+    height: auto;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+#containerMenu{
+    width: 1850px;
+    height: inherit;
+/*    background-color: black;*/
+    margin-left: auto;
+    margin-right: auto;
+    
+/*    margin-top: -200px;*/
+}
+/*CSS DO MENU*/
+#logoMenu{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-top: 05px;
+    margin-left: 90px;
+}
+.menuItens{
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    float: left;
+    margin-left: 45px;
+    margin-top: 130px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 22px;
+/*    border: solid 1px black;*/
+    border-radius: 05px;
+    color: white;
+}
+.menuItens:hover{
+    border-bottom: solid 5px white;
+}
+.loginMenu{
+    width: 160px;
+    height: 50px;
+/*    background-color: white;*/
+    float: left;
+    margin-left: 50px;
+    margin-top: 115px;
+    font-size: 22px;
+    color: white;
+}
+#botaoMenu{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    margin-left: 25px;
+    margin-top: 135px;
+}
+.loginCaixa{
+    width: 180px;
+    height: 50px;
+}
+.botaoLogin{
+    width: 80px;
+    height: 50px;
+}
+/*CSS DO CONTEUDO*/
+#containerAll{
+    width: 1550px;
+    height:2180px; 
+    background-color: rgba(255,255,255,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 210px;
+}
+.containerProdutos{
+    width: 1550px;
+    background-image: url(imagem/background.png);
+    height: 2180px; 
+/*    padding-left: 170px;*/
+    border-radius: 10px;
+    float: left;
+/*    margin-bottom: 20px;*/
+    margin-top: 10px;
+    padding-top: -100px;
+}
+#honker{
+    width: 1530px;
+    height: 123px;
+    background-color: rgb(110, 21, 14);
+    border-radius: 05px;
+    border: double 10px gold;
+    text-align: center;
+    color: gold;
+    text-shadow: 6px 6px black;
+    padding-top: 20x
+}
+#mapaLoja{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid 2px black;
+    box-shadow: 6px 6px gray;
+}
+#enderecoHonker{
+    width: 1000px;
+    height: 150px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#endereco{
+    text-align: center;
+    font-size: 44px;
+    font-family: arial;
+}
+/*CSS DO RODAPE*/
+#rodape{
+    width: 1850px;
+    height: 140px;
+/*    background-color: black;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+#catalogoEletronico{
+    width:200px;
+    height: 70px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 300px;
+    float: left;
+}
+#endereco{
+    width: 900px;
+    height: 70px;
+    background-color: white;
+    float: left;
+    margin-right: 100px;
+}
+#downloadApp{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    float: left;
+}
